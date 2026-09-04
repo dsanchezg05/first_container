@@ -2,13 +2,12 @@ import numpy as np
 
 def prime_num(num):
   if num<2:
-    prime=False
+    return False
   for i in range(2, num):
      if  (num % i)== 0:
-        prime=False
+        return False
      else:
-        prime=True
-  return prime
+        return True
    
 
 while True:
