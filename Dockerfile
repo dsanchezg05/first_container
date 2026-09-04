@@ -8,4 +8,4 @@ RUN pip install -r requirements.txt
 
 COPY prime_number.py .
 
-CMD CMD ["python", "prime_number.py"]
+CMD ["python", "prime_number.py"]
